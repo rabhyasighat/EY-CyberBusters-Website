@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+html{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    margin: 0;
+    overflow: scroll;
+    overflow-x: hidden ;
+}
+/* .row1{
+    height: 10%;
+    width: 100%;
+}
+.row2{
+    height: 90%;
+    width: 100%;
+    flex-direction: row;
+} */
+nav {
+    font-family: 'Montserrat', sans-serif;
+    /* text-align: center; */
+    float: right;
+    background-color: rgb(34, 14, 53);
+    margin-top: 1%;
+    color: bisque;
+    width: 100%;
+    padding: 15px 10px 15px 5px;
+    text-align: right;
+    align-items: center;
+
+  }
+  a {
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+    margin-right: 14px;
+      font-size: 15px;
+      text-align: right;
+      border-bottom: 0px solid transparent;
+      color: rgb(188, 166, 202);
+      
+      text-decoration: none;
+      margin-right: 14px;
+  }
+  .container{
+    margin-right: 10px;
+  }
+  a:hover,
+  a:focus {
+    color: rgb(91, 156, 22);
+  }
+
+  .home{
+    color: rgba(226, 200, 255, 0.342);
+  }
+  .home:hover{
+    color: rgba(226, 200, 255, 0.342);
+  }
+  .headings{
+    text-align: center;
+  }
+  .col{
+    width:50%;
+    flex-flow: column;
+    display: flex;
+    float: left;
+  }
+  .row{
+  content: "";
+  display: table;
+  clear: both;
+  }
+  .r1{
+    height:47vh;
+  }
+  .r2{
+    height:47vh;
+    
+  }
+  .r3{
+    height:90vh;
+  }
+  .x1{
+    height: 40vh;
+    margin:2% 2% 2% 2%;
+
+  }
+  .outer{
+    /* display: block; */
+    /* text-align: center; */
+    margin-right: 20px;
+    /* background-color: darkgoldenrod; */
+    width: 50vw;
+    /* float: right; */
+  }
+  img{
+    margin: 10px 10px 10px 10px ;
+    border: solid black 2px;
+    /* display: flex; */
+    /* float: left; */
+  }
+  .inner{
+    display: flex;
+  }
+  .inner1{
+    display: flex;
+  }
+  .card1{
+    /* display: flex; */
+    float: left;
+    /* width: 90%; */
+    flex: 50%;
+    /* flex-flow: column; */
+    /* justify-content: center; */
+    /* flex-f; */
+  }
+  .buttons{
+    height:2.5rem;
+    width:8rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 34%;
+    letter-spacing: 1.5px;
+    font-size: large;
+    font-style: normal;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: rgba(53, 23, 82, 0.938);
+    color: rgb(188, 166, 202);
+  }
+  .buttons:hover{
+    background-color: rgba(82, 38, 122, 0.938);
+    color:rgb(255, 255, 255);
+  }
+  .buttons:active{
+    transform: translate(0, 0.3rem);
+    
+  }
+.flow{
+  
+  width: ;
+  display: block;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 8%;
+  margin-top: 0;
+  
+ 
+}
